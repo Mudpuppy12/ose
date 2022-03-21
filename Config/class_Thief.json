@@ -1,0 +1,241 @@
+{
+    "requirements": {
+    },
+    "prime_requisites": [
+        "DEX"
+    ],
+    "size": "medium",
+    "hitdice": "d4",
+    "level_max": 14,
+    "armor": [ 
+        "leather"
+    ],
+    "weapons": [
+        "any"
+    ],
+    "languages": [
+        "Alignment",
+        "Common"
+    ],
+    "listen_doors": [1],
+    "stronghold": 9,
+    "backstab_hit_bonus": 4,
+    "read_languages": 4,
+    "read_language_chance": 80,
+    "scroll_use": 10,
+    "scroll_error": 10,
+    "secret_doors": [1],
+    "infrasion": 0,
+    "specials": [
+        "Backstab",
+        "Scroll Use",
+        "Thief Skills",
+        "Read Languages",
+        "Stronghold"
+    ],
+    "level_progression": {
+        "1": {
+            "xp": 0,
+            "hd": "1d4",
+            "thac0": 19,
+            "hit_bonus": 0,
+            "savings_throws": {
+                "death": 13,
+                "wands": 14,
+                "paralysis": 13,
+                "breath": 16,
+                "spells": 15
+            }
+        },
+        "2": {
+            "xp": 1200,
+            "hd": "2d4",
+            "thac0": 19,
+            "hit_bonus": 0,
+            "savings_throws": {
+                "death": 13,
+                "wands": 14,
+                "paralysis": 13,
+                "breath": 16,
+                "spells": 15
+            }
+        },
+        "3": {
+            "xp": 2400,
+            "hd": "3d4",
+            "thac0": 19,
+            "hit_bonus": 0,
+            "savings_throws": {
+                "death": 13,
+                "wands": 14,
+                "paralysis": 13,
+                "breath": 16,
+                "spells": 15
+            }
+        },
+        "4": {
+            "xp": 4800,
+            "hd": "4d4",
+            "thac0": 19,
+            "hit_bonus": 2,
+            "savings_throws": {
+                "death": 13,
+                "wands": 14,
+                "paralysis": 13,
+                "breath": 16,
+                "spells": 15
+            }
+        },
+        "5": {
+            "xp": 9600,
+            "hd": "5d4",
+            "thac0": 17,
+            "hit_bonus": 2,
+            "savings_throws": {
+                "death": 12,
+                "wands": 13,
+                "paralysis": 11,
+                "breath": 14,
+                "spells": 13
+            }
+        },
+        "6": {
+            "xp": 20000,
+            "hd": "6d4",
+            "thac0": 17,
+            "hit_bonus": 2,
+            "savings_throws": {
+                "death": 12,
+                "wands": 13,
+                "paralysis": 11,
+                "breath": 14,
+                "spells": 13
+            }
+        },
+        "7": {
+            "xp": 40000,
+            "hd": "7d4",
+            "thac0": 17,
+            "hit_bonus": 2,
+            "savings_throws": {
+                "death": 12,
+                "wands": 13,
+                "paralysis": 11,
+                "breath": 14,
+                "spells": 13
+            }
+        },
+        "8": {
+            "xp": 80000,
+            "hd": "8d4",
+            "thac0": 17,
+            "hit_bonus": 2,
+            "savings_throws": {
+                "death": 12,
+                "wands": 13,
+                "paralysis": 11,
+                "breath": 14,
+                "spells": 13
+            }
+        },
+        "9": {
+            "xp": 160000,
+            "hd": "9d4",
+            "thac0": 14,
+            "hit_bonus": 5,
+            "savings_throws": {
+                "death": 10,
+                "wands": 11,
+                "paralysis": 9,
+                "breath": 12,
+                "spells": 10
+            }
+        },
+        "10": {
+            "xp": 280000,
+            "hd": "9d4+2",
+            "con_bonus": false,
+            "thac0": 14,
+            "hit_bonus": 5,
+            "savings_throws": {
+                "death": 10,
+                "wands": 11,
+                "paralysis": 9,
+                "breath": 12,
+                "spells": 10
+            }
+        },
+        "11": {
+            "xp": 400000,
+            "hd": "9d4+4",
+            "con_bonus": false,
+            "thac0": 14,
+            "hit_bonus": 5,
+            "savings_throws": {
+                "death": 10,
+                "wands": 11,
+                "paralysis": 9,
+                "breath": 12,
+                "spells": 10
+            }
+        },
+        "12": {
+            "xp": 520000,
+            "hd": "9d4+6",
+            "con_bonus": false,
+            "thac0": 14,
+            "hit_bonus": 5,
+            "savings_throws": {
+                "death": 10,
+                "wands": 11,
+                "paralysis": 9,
+                "breath": 12,
+                "spells": 10
+            }
+        },
+        "13": {
+            "xp": 640000,
+            "hd": "9d6+8",
+            "con_bonus": false,
+            "thac0": 12,
+            "hit_bonus": 7,
+            "savings_throws": {
+                "death": 8,
+                "wands": 9,
+                "paralysis": 7,
+                "breath": 10,
+                "spells": 8
+            }
+        },
+        "14": {
+            "xp": 760000,
+            "hd": "9d4+10",
+            "con_bonus": false,
+            "thac0": 12,
+            "hit_bonus": 7,
+            "savings_throws": {
+                "death": 8,
+                "wands": 9,
+                "paralysis": 7,
+                "breath": 10,
+                "spells": 8
+            }
+        }
+    },
+    "thief_skills": {
+        "1": [87,10,[1,2],10,20,15,20],
+        "2": [88,15,[1,2],15,25,20,25],
+        "3": [89,20,[1,3],20,30,25,30],
+        "4": [90,25,[1,3],25,35,30,35],
+        "5": [91,30,[1,3],30,40,35,40],
+        "6": [92,40,[1,3],36,45,45,45],
+        "7": [93,50,[1,4],45,55,55,55],
+        "8": [94,60,[1,4],55,65,65,65],
+        "9": [95,70,[1,4],65,75,75,75],
+        "10": [96,80,[1,4],75,85,85,85],
+        "11": [97,90,[1,5],85,95,95,95],
+        "12": [98,95,[1,5],90,96,96,105],
+        "13": [99,97,[1,5],95,98,97,115],
+        "14": [99,99,[1,5],99,99,99,125]
+    }
+}

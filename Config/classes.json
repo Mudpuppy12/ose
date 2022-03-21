@@ -1,0 +1,11 @@
+{
+    "classes" : [
+        "Cleric",
+        "Dwarf",
+        "Elf",
+        "Figher",
+        "Magic-User",
+        "Thief"
+    ]
+}
+

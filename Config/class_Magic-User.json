@@ -1,0 +1,243 @@
+{
+    "requirements": {
+    },
+    "prime_requisites": [
+        "INT"
+    ],
+    "size": "medium",
+    "hitdice": "d4",
+    "level_max": 14,
+    "armor": [ 
+        "none"
+    ],
+    "weapons": [
+        "dagger",
+        "staff"
+    ],
+    "languages": [
+        "Alignment",
+        "Common"
+    ],
+    "stronghold": 11,
+    "create_magic_items": 9,
+    "listen_doors": [1],
+    "secret_doors": [1],
+    "infrasion": 0,
+    "specials": [
+        "Arcane Magic",
+        "Magic Research",
+        "Use Magic Items - Arcane",
+        "Create Magic Items",
+        "Stronghold"
+
+    ],
+    "level_progression": {
+        "1": {
+            "xp": 0,
+            "hd": "1d4",
+            "thac0": 19,
+            "hit_bonus": 0,
+            "savings_throws": {
+                "death": 13,
+                "wands": 14,
+                "paralysis": 13,
+                "breath": 16,
+                "spells": 15
+            },
+            "spells":[1,0,0,0,0,0]
+        },
+        "2": {
+            "xp": 2500,
+            "hd": "2d4",
+            "thac0": 19,
+            "hit_bonus": 0,
+            "savings_throws": {
+                "death": 13,
+                "wands": 14,
+                "paralysis": 13,
+                "breath": 16,
+                "spells": 15
+            },
+            "spells":[2,0,0,0,0,0]
+
+        },
+        "3": {
+            "xp": 5000,
+            "hd": "3d4",
+            "thac0": 19,
+            "hit_bonus": 0,
+            "savings_throws": {
+                "death": 13,
+                "wands": 14,
+                "paralysis": 13,
+                "breath": 16,
+                "spells": 15
+            },
+            "spells":[2,1,0,0,0,0]
+
+        },
+        "4": {
+            "xp": 10000,
+            "hd": "4d4",
+            "thac0": 19,
+            "hit_bonus": 0,
+            "savings_throws": {
+                "death": 13,
+                "wands": 14,
+                "paralysis": 13,
+                "breath": 16,
+                "spells": 15
+            },
+            "spells":[2,2,0,0,0,0]
+
+        },
+        "5": {
+            "xp": 20000,
+            "hd": "5d4",
+            "thac0": 19,
+            "hit_bonus": 0,
+            "savings_throws": {
+                "death": 13,
+                "wands": 14,
+                "paralysis": 13,
+                "breath": 16,
+                "spells": 15
+            },
+            "spells":[2,2,1,0,0,0]
+
+        },
+        "6": {
+            "xp": 40000,
+            "hd": "6d4",
+            "thac0": 17,
+            "hit_bonus": 2,
+            "savings_throws": {
+                "death": 11,
+                "wands": 12,
+                "paralysis": 11,
+                "breath": 14,
+                "spells": 12
+            },
+            "spells":[2,2,2,0,0,0]
+
+        },
+        "7": {
+            "xp": 80000,
+            "hd": "7d4",
+            "thac0": 17,
+            "hit_bonus": 2,
+            "savings_throws": {
+                "death": 11,
+                "wands": 12,
+                "paralysis": 11,
+                "breath": 14,
+                "spells": 12
+            },
+            "spells":[3,2,2,1,0,0]
+        },
+        "8": {
+            "xp": 150000,
+            "hd": "8d4",
+            "thac0": 17,
+            "hit_bonus": 2,
+            "savings_throws": {
+                "death": 11,
+                "wands": 12,
+                "paralysis": 11,
+                "breath": 14,
+                "spells": 12
+            },
+            "spells":[3,3,2,2,0,0]
+        },
+        "9": {
+            "xp": 300000,
+            "hd": "9d4",
+            "thac0": 17,
+            "hit_bonus": 2,
+            "savings_throws": {
+                "death": 11,
+                "wands": 12,
+                "paralysis": 11,
+                "breath": 14,
+                "spells": 12
+            },
+            "spells":[3,3,3,2,1,0]
+
+        },
+        "10": {
+            "xp": 450000,
+            "hd": "9d4+1",
+            "con_bonus": false,
+            "thac0": 17,
+            "hit_bonus": 2,
+            "savings_throws": {
+                "death": 11,
+                "wands": 12,
+                "paralysis": 11,
+                "breath": 14,
+                "spells": 12
+            },
+            "spells":[3,3,3,3,2,0]
+        },
+        "11": {
+            "xp": 600000,
+            "hd": "9d4+2",
+            "con_bonus": false,
+            "thac0": 14,
+            "hit_bonus": 5,
+            "savings_throws": {
+                "death": 8,
+                "wands": 9,
+                "paralysis": 8,
+                "breath": 11,
+                "spells": 8
+            },
+            "spells":[4,3,3,3,2,1]
+        },
+        "12": {
+            "xp": 750000,
+            "hd": "9d6+4",
+            "con_bonus": false,
+            "thac0": 14,
+            "hit_bonus": 5,
+            "savings_throws": {
+                "death": 8,
+                "wands": 9,
+                "paralysis": 8,
+                "breath": 11,
+                "spells": 8
+            },
+            "spells":[4,4,3,3,3,2]
+        },
+        "13": {
+            "xp": 900000,
+            "hd": "9d4+4",
+            "con_bonus": false,
+            "thac0": 14,
+            "hit_bonus": 5,
+            "savings_throws": {
+                "death": 8,
+                "wands": 9,
+                "paralysis": 8,
+                "breath": 11,
+                "spells": 8
+            },
+            "spells":[4,4,4,3,3,3]
+        },
+        "14": {
+            "xp": 1050000,
+            "hd": "9d4+5",
+            "con_bonus": false,
+            "thac0": 14,
+            "hit_bonus": 5,
+            "savings_throws": {
+                "death": 8,
+                "wands": 9,
+                "paralysis": 8,
+                "breath": 11,
+                "spells": 8
+            },
+            "spells":[4,4,4,3,3,3]
+        }
+    }
+}

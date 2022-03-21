@@ -1,0 +1,258 @@
+{
+    "requirements": {
+    },
+    "prime_requisites": [
+        "WIS"
+    ],
+    "size": "medium",
+    "stronghold": 9,
+    "create_magic_items":9,
+    "hitdice": "d6",
+    "level_max": 14,
+    "armor": [ 
+        "all"
+    ],
+    "weapons": [
+        "blunt"
+    ],
+    "languages": [
+        "Alignment",
+        "Common"
+    ],
+    "listen_doors": [1],
+    "secret_doors": [1],
+    "infrasion": 0,
+    "specials": [
+        "Turn Undead",
+        "Divine Magic",
+        "Stronghold",
+        "Magic Research",
+        "Create Magic Items",
+        "Use Magic Items - Divine"
+    ],
+    "level_progression": {
+        "1": {
+            "xp": 0,
+            "hd": "1d6",
+            "thac0": 19,
+            "hit_bonus": 0,
+            "savings_throws": {
+                "death": 11,
+                "wands": 12,
+                "paralysis": 14,
+                "breath": 16,
+                "spells": 15
+            },
+            "spells":[0,0,0,0,0]
+        },
+        "2": {
+            "xp": 1500,
+            "hd": "2d6",
+            "thac0": 19,
+            "hit_bonus": 0,
+            "savings_throws": {
+                "death": 11,
+                "wands": 12,
+                "paralysis": 14,
+                "breath": 16,
+                "spells": 15
+            },
+            "spells":[1,0,0,0,0]
+
+        },
+        "3": {
+            "xp": 3000,
+            "hd": "3d6",
+            "thac0": 19,
+            "hit_bonus": 0,
+            "savings_throws": {
+                "death": 11,
+                "wands": 12,
+                "paralysis": 14,
+                "breath": 16,
+                "spells": 15
+            },
+            "spells":[2,0,0,0,0]
+
+        },
+        "4": {
+            "xp": 6000,
+            "hd": "4d6",
+            "thac0": 19,
+            "hit_bonus": 2,
+            "savings_throws": {
+                "death": 11,
+                "wands": 12,
+                "paralysis": 14,
+                "breath": 16,
+                "spells": 15
+            },
+            "spells":[2,1,0,0,0]
+
+        },
+        "5": {
+            "xp": 12000,
+            "hd": "5d6",
+            "thac0": 17,
+            "hit_bonus": 2,
+            "savings_throws": {
+                "death": 9,
+                "wands": 10,
+                "paralysis": 12,
+                "breath": 14,
+                "spells": 12
+            },
+            "spells":[2,2,0,0,0]
+
+        },
+        "6": {
+            "xp": 25000,
+            "hd": "6d6",
+            "thac0": 17,
+            "hit_bonus": 2,
+            "savings_throws": {
+                "death": 9,
+                "wands": 10,
+                "paralysis": 12,
+                "breath": 14,
+                "spells": 12
+            },
+            "spells":[2,2,1,1,0]
+
+        },
+        "7": {
+            "xp": 50000,
+            "hd": "7d6",
+            "thac0": 17,
+            "hit_bonus": 2,
+            "savings_throws": {
+                "death": 9,
+                "wands": 10,
+                "paralysis": 12,
+                "breath": 14,
+                "spells": 12
+            },
+            "spells":[2,2,2,1,1]
+
+        },
+        "8": {
+            "xp": 100000,
+            "hd": "8d6",
+            "thac0": 17,
+            "hit_bonus": 2,
+            "savings_throws": {
+                "death": 9,
+                "wands": 10,
+                "paralysis": 12,
+                "breath": 14,
+                "spells": 12
+            },
+            "spells":[3,3,2,2,1]
+
+        },
+        "9": {
+            "xp": 200000,
+            "hd": "9d6",
+            "thac0": 14,
+            "hit_bonus": 5,
+            "savings_throws": {
+                "death": 6,
+                "wands": 7,
+                "paralysis": 9,
+                "breath": 11,
+                "spells": 9
+            },
+            "spells":[3,3,3,2,2]
+
+        },
+        "10": {
+            "xp": 300000,
+            "hd": "9d6+1",
+            "con_bonus": false,
+            "thac0": 14,
+            "hit_bonus": 5,
+            "savings_throws": {
+                "death": 6,
+                "wands": 7,
+                "paralysis": 9,
+                "breath": 11,
+                "spells": 9
+            },
+            "spells":[4,4,3,3,2]
+        },
+        "11": {
+            "xp": 400000,
+            "hd": "9d6+2",
+            "con_bonus": false,
+            "thac0": 14,
+            "hit_bonus": 5,
+            "savings_throws": {
+                "death": 6,
+                "wands": 7,
+                "paralysis": 9,
+                "breath": 11,
+                "spells": 9
+            },
+            "spells":[4,4,4,3,3]
+        },
+        "12": {
+            "xp": 500000,
+            "hd": "9d6+3",
+            "con_bonus": false,
+            "thac0": 14,
+            "hit_bonus": 5,
+            "savings_throws": {
+                "death": 6,
+                "wands": 7,
+                "paralysis": 9,
+                "breath": 11,
+                "spells": 9
+            },
+            "spells":[5,5,4,4,3]
+        },
+        "13": {
+            "xp": 600000,
+            "hd": "9d6+4",
+            "con_bonus": false,
+            "thac0": 12,
+            "hit_bonus": 7,
+            "savings_throws": {
+                "death": 3,
+                "wands": 5,
+                "paralysis": 7,
+                "breath": 8,
+                "spells": 7
+            },
+            "spells":[5,5,5,4,4]
+        },
+        "14": {
+            "xp": 700000,
+            "hd": "9d6+5",
+            "con_bonus": false,
+            "thac0": 12,
+            "hit_bonus": 7,
+            "savings_throws": {
+                "death": 3,
+                "wands": 5,
+                "paralysis": 7,
+                "breath": 8,
+                "spells": 7
+            },
+            "spells":[6,5,5,5,4]
+        }
+    },
+    "turning": {
+        "1": [7,9,11,"-","-","-","-","-"],
+        "2": ["T",7,9,11,"-","-","-","-"],
+        "3": ["T","T",7,9,11,"-","-","-"],
+        "4": ["D","T","T",7,9,11,"-","-"],
+        "5": ["D","D","T","T",7,9,11,"-"],
+        "6": ["D","D","D","T","T",7,9,11],
+        "7": ["D","D","D","D","T","T",7,9],
+        "8": ["D","D","D","D","D","T","T",7],
+        "9": ["D","D","D","D","D","D","T","T"],
+        "10": ["D","D","D","D","D","D","D","T"],
+        "11": ["D","D","D","D","D","D","D","D"]
+
+    }
+}
