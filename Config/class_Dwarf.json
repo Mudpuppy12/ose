@@ -1,4 +1,6 @@
 {
+    "classname": "Dwarf",
+    
     "requirements": {
         "CON": 9
     },

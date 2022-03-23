@@ -1,0 +1,76 @@
+{
+    "1": [
+    {
+        "name": "Cure Light Wounds",
+        "duration": "Instant",
+        "range": "The caster or a creature touched",
+        "dice": "1d6+1",
+        "resist": "None",
+        "desc": "This spell has two uses. 1. Healing a living subject: Restores 1d6+1 hit points of damage. This cannot grant more hit points than the subject’s normal maximum. 2. Curing paralysis: Paralysing effects are negated."
+    },{
+        "name": "Cause Light Wounds",
+        "duration": "Instant",
+        "range": "The caster or a creature touched",
+        "dice": "1d6+1",
+        "resist": "attack",
+        "desc": "Inflicts 1d6+1 hit points of damage to a touched creature. In combat, a melee attack roll is required."
+    },{
+        "name": "Detect Evil",
+        "duration": 6,
+        "range": 120,
+        "desc": "Objects enchanted for evil purposes or living beings with evil intentions are caused to magically glow. Intent only: This spell does not grant the ability to read minds, but only grants a general sense of evil intent. Definition of evil: The referee must decide what is “evil”. Some things that are potentially harmful, like traps, are not evil."
+    },{
+        "name": "Detect Magic",
+        "duration": 2,
+        "range": 60,
+        "desc": "Enchanted objects, areas, or creatures are caused to glow. Both permanent and temporary enchantments are revealed."
+    },{
+        "name": "Light",
+        "duration": 12,
+        "range": 120,
+        "resist": "Savings throw vs spells",
+        "desc": "This spell has three usages: 1. Conjuring light: In a 15’ radius. The magical light is sufficient for reading, but is not as bright as daylight. The spell may be cast upon an object, in which case the light moves with the object. 2. Blinding a creature: By casting the spell upon its eyes. If the target fails a saving throw versus spells, it is blind- ed for the duration. A blind creature cannot attack. 3. Cancelling darkness: Light may can- cel a darkness spell"
+    },{
+        "name": "Darkness",
+        "duration": 12,
+        "range": 120,
+        "resist": "Savings throw vs spells",
+        "desc": "Creates a 15' radius area of magical black- ness, preventing normal sight (but not infravision). Like light, it may alternatively be used to blind creatures or to dispel a light spell."
+    },{
+        "name": "Protection from Evil",
+        "duration": 12,
+        "range": "The caster",
+        "desc": "This spell wards the caster from attacks by creatures of another alignment, as follows: Bonuses: The caster gains a +1 bonus to saving throws against attacks or special abilities of affected creatures. Affected creatures' attacks: Against the caster are penalised by -1. Enchanted, constructed, or sum- moned creatures: The spell additionally prevents such creatures from attacking the caster in melee, though they may still make ranged attacks. If the caster engages such a creature in melee, this protection is broken (the caster still gains the save and attack bonuses mentioned above)."
+
+    },{
+        "name": "Purify Food and Water",
+        "duration": "Permanent",
+        "range": 10,
+        "desc": "This spell makes spoiled, rotten, poison- ous, or otherwise contaminated food and water pure and suitable for eating and drinking. One of the following may be affected: Drink: 6 quarts. Rations: One trail ration (iron or standard). Unpreserved food: A quantity suffi- cient for 12 human-sized beings."
+    },{
+        "name": "Remove Fear",
+        "duration": 2,
+        "range": "The caster or a creature touched",
+        "resist": "Saving throw vs spells; Modified by +1 per level of caster",
+        "desc": "The creature touched is calmed and purged of fear. Magically induced fear may be dispelled, but this requires the subject to make a saving throw versus spells. The save is modified by +1 per level of the caster."
+
+    },{
+        "name": "Cause Fear",
+        "duration": 2,
+        "range": 120,
+        "resist": "Saving throw vs spells",
+        "desc": "Will cause a target within 120’ to flee for the duration unless it saves versus spells"
+    },{
+        "name": "Resist Cold",
+        "duration": 6,
+        "range": 30,
+        "desc": "All creatures within range are protected from cold, as follows: Normal cold: Unharmed by non-magical freezing temperatures. Save bonus: Gain a +2 bonus to all saving throws versus cold-based magical or breath attacks. Cold-based damage: Is reduced by 1 point per damage die rolled. (Each die in- flicts a minimum of 1 hit point damage.)"
+      }
+    ],
+
+    "2":{},
+    "3":{},
+    "4":{},
+    "5":{}
+
+}

@@ -1,4 +1,5 @@
 {
+    "classname": "Fighter",
     "requirements": {
     },
     "prime_requisites": [

@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 import random, d20, json
+import jsonpickle
+from json import JSONEncoder
 
 def display_dice(dice,highest,lowest):
     y=3
@@ -90,10 +92,16 @@ class Dice():
 
 
     def generate_attributes_classic(self):
-
         for stat in ("strength","dexterity","intelligence","wisdom","consitution","charisma"):
             setattr(self,stat,d20.roll("3d6").total)
+  
+    def generate_attributes_houserule1(self):
+        for stat in ("strength","dexterity","intelligence","wisdom","consitution","charisma"):
+            setattr(self,stat,d20.roll("4d6kh3").total)
 
+    def generate_attributes_houserule2(self):
+        for stat in ("strength","dexterity","intelligence","wisdom","consitution","charisma"):
+            setattr(self,stat,d20.roll("2d6+6").total)
 
 class CharClass():
     def __init__(self, *args, **kwargs):
@@ -142,13 +150,17 @@ class Character(Dice):
                  self.armor=armor
                  self.level=level
                  self.xp=xp
-    
+   
     def set_class(self,classOBJ):
         self.characterClass = classOBJ
+        self.player_class = self.characterClass.classname
+
+    def save_character(self):
+        with open("Save/" + self.name + ".json","w") as fh:
+            fh.write(jsonpickle.encode(self))
 
     def roll_hp(self):
         self.hp=self.hp_roll()
-
 
 class Display():
     def __init__(self):
@@ -158,21 +170,32 @@ class Display():
         
         for stat in ("strength","dexterity","intelligence","wisdom","consitution","charisma"):
             print("{}: : {}".format(stat[:3].upper(),getattr(playerObj, stat)))
+ 
         print()
         print("HP: {}".format(playerObj.hp))
+
 
 def main():
   classes = ClassMgr()
 
-  new_guy=Character("Spiffy",level=1)
-  new_guy.generate_attributes_classic() 
+  with open("Save/Spiffy.json","r") as fh:
+            test_obj = jsonpickle.decode(fh.read())
 
-  new_guy.set_class(classes.classdata['Elf'])
-  new_guy.roll_hp()
-  print(new_guy.characterClass.level_progression['1'])
-  
-  display=Display.display_attributes(new_guy) 
+  test_obj.roll_hp()
+  display=Display.display_attributes(test_obj)
+  print(test_obj.characterClass.classname)
 
+
+  #new_guy=Character("Spiffy",level=1)
+  #new_guy.generate_attributes_classic() 
+
+  #new_guy.set_class(classes.classdata['Elf'])
+  #new_guy.roll_hp()
+
+  #print(new_guy.characterClass.level_progression['1'])
+  #print(new_guy.player_class)
+  #display=Display.display_attributes(new_guy) 
+  #print(new_guy.save_character())
 
 if __name__ == "__main__":
     main()
